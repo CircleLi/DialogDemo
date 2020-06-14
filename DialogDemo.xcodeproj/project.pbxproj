@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CE4A3052495D13600C978DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3042495D13600C978DE /* AppDelegate.swift */; };
+		7CE4A3072495D13600C978DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3062495D13600C978DE /* SceneDelegate.swift */; };
+		7CE4A3092495D13600C978DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3082495D13600C978DE /* ViewController.swift */; };
+		7CE4A30C2495D13600C978DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4A30A2495D13600C978DE /* Main.storyboard */; };
+		7CE4A30E2495D13B00C978DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4A30D2495D13B00C978DE /* Assets.xcassets */; };
+		7CE4A3112495D13B00C978DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4A30F2495D13B00C978DE /* LaunchScreen.storyboard */; };
+		7CE4A3482495D17500C978DE /* LCDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A31A2495D17500C978DE /* LCDialogViewController.swift */; };
+		7CE4A3492495D17500C978DE /* LCDialogBottomRisePresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A31C2495D17500C978DE /* LCDialogBottomRisePresentAnimation.swift */; };
+		7CE4A34A2495D17500C978DE /* LCDialogBottomRiseDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A31D2495D17500C978DE /* LCDialogBottomRiseDismissAnimation.swift */; };
+		7CE4A34B2495D17500C978DE /* LCDialogBottomRisePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A31E2495D17500C978DE /* LCDialogBottomRisePresentationController.swift */; };
+		7CE4A34C2495D17500C978DE /* LCDialogCenterBlowUpDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3202495D17500C978DE /* LCDialogCenterBlowUpDismissAnimation.swift */; };
+		7CE4A34D2495D17500C978DE /* LCDialogCenterBlowUpPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3212495D17500C978DE /* LCDialogCenterBlowUpPresentationController.swift */; };
+		7CE4A34E2495D17500C978DE /* LCDialogCenterBlowUpPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3222495D17500C978DE /* LCDialogCenterBlowUpPresentAnimation.swift */; };
+		7CE4A34F2495D17500C978DE /* LCDialogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3232495D17500C978DE /* LCDialogModel.swift */; };
+		7CE4A3502495D17500C978DE /* LCDialogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3242495D17500C978DE /* LCDialogManager.swift */; };
+		7CE4A3512495D17500C978DE /* LCDialogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3252495D17500C978DE /* LCDialogRouter.swift */; };
+		7CE4A3522495D17500C978DE /* LCDialogContainerComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3262495D17500C978DE /* LCDialogContainerComponentProtocol.swift */; };
+		7CE4A3532495D17500C978DE /* SpeakBeginnerGuideViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3292495D17500C978DE /* SpeakBeginnerGuideViewComponent.swift */; };
+		7CE4A3542495D17500C978DE /* SpeakBeginnerGuideContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A32A2495D17500C978DE /* SpeakBeginnerGuideContainerComponent.swift */; };
+		7CE4A3552495D17500C978DE /* SpeakBeginnerGuideLifceCycleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A32B2495D17500C978DE /* SpeakBeginnerGuideLifceCycleComponent.swift */; };
+		7CE4A3562495D17500C978DE /* SpeakBeginnerGuideRegualrComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A32C2495D17500C978DE /* SpeakBeginnerGuideRegualrComponent.swift */; };
+		7CE4A3572495D17500C978DE /* StoreBottomViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A32E2495D17500C978DE /* StoreBottomViewComponent.swift */; };
+		7CE4A3582495D17500C978DE /* StoreBottomDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A32F2495D17500C978DE /* StoreBottomDialogView.swift */; };
+		7CE4A3592495D17500C978DE /* StoreBottomContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3302495D17500C978DE /* StoreBottomContainerComponent.swift */; };
+		7CE4A35A2495D17500C978DE /* StoreBottomRegualrComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3312495D17500C978DE /* StoreBottomRegualrComponent.swift */; };
+		7CE4A35B2495D17500C978DE /* StoreBottomLifceCycleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3322495D17500C978DE /* StoreBottomLifceCycleComponent.swift */; };
+		7CE4A35C2495D17500C978DE /* DMPViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3342495D17500C978DE /* DMPViewComponent.swift */; };
+		7CE4A35D2495D17500C978DE /* DMPLifceCycleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3352495D17500C978DE /* DMPLifceCycleComponent.swift */; };
+		7CE4A35E2495D17500C978DE /* DMPContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3362495D17500C978DE /* DMPContainerComponent.swift */; };
+		7CE4A35F2495D17500C978DE /* DMPDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3372495D17500C978DE /* DMPDialogView.swift */; };
+		7CE4A3602495D17500C978DE /* DMPRegualrComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3382495D17500C978DE /* DMPRegualrComponent.swift */; };
+		7CE4A3612495D17500C978DE /* SpeakNewArrivalViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A33A2495D17500C978DE /* SpeakNewArrivalViewComponent.swift */; };
+		7CE4A3622495D17500C978DE /* SpeakNewArrivalRegualrComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A33B2495D17500C978DE /* SpeakNewArrivalRegualrComponent.swift */; };
+		7CE4A3632495D17500C978DE /* SpeakNewArrivalContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A33C2495D17500C978DE /* SpeakNewArrivalContainerComponent.swift */; };
+		7CE4A3642495D17500C978DE /* SpeakNewArrivalLifceCycleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A33D2495D17500C978DE /* SpeakNewArrivalLifceCycleComponent.swift */; };
+		7CE4A3652495D17500C978DE /* PtContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A33F2495D17500C978DE /* PtContainerComponent.swift */; };
+		7CE4A3662495D17500C978DE /* PtLifceCycleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3402495D17500C978DE /* PtLifceCycleComponent.swift */; };
+		7CE4A3672495D17500C978DE /* PtRegualrComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3412495D17500C978DE /* PtRegualrComponent.swift */; };
+		7CE4A3682495D17500C978DE /* PtViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3422495D17500C978DE /* PtViewComponent.swift */; };
+		7CE4A3692495D17500C978DE /* LCDialogComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3432495D17500C978DE /* LCDialogComponents.swift */; };
+		7CE4A36A2495D17500C978DE /* LCDialogRegularComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3442495D17500C978DE /* LCDialogRegularComponentProtocol.swift */; };
+		7CE4A36B2495D17500C978DE /* LCDialogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3452495D17500C978DE /* LCDialogStore.swift */; };
+		7CE4A36C2495D17500C978DE /* LCDialogViewComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3462495D17500C978DE /* LCDialogViewComponentProtocol.swift */; };
+		7CE4A36D2495D17500C978DE /* LCDialogLifceCycleComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4A3472495D17500C978DE /* LCDialogLifceCycleComponentProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CE4A3012495D13600C978DE /* DialogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE4A3042495D13600C978DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE4A3062495D13600C978DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CE4A3082495D13600C978DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE4A30B2495D13600C978DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE4A30D2495D13B00C978DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE4A3102495D13B00C978DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE4A3122495D13B00C978DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE4A31A2495D17500C978DE /* LCDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogViewController.swift; sourceTree = "<group>"; };
+		7CE4A31C2495D17500C978DE /* LCDialogBottomRisePresentAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogBottomRisePresentAnimation.swift; sourceTree = "<group>"; };
+		7CE4A31D2495D17500C978DE /* LCDialogBottomRiseDismissAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogBottomRiseDismissAnimation.swift; sourceTree = "<group>"; };
+		7CE4A31E2495D17500C978DE /* LCDialogBottomRisePresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogBottomRisePresentationController.swift; sourceTree = "<group>"; };
+		7CE4A3202495D17500C978DE /* LCDialogCenterBlowUpDismissAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogCenterBlowUpDismissAnimation.swift; sourceTree = "<group>"; };
+		7CE4A3212495D17500C978DE /* LCDialogCenterBlowUpPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogCenterBlowUpPresentationController.swift; sourceTree = "<group>"; };
+		7CE4A3222495D17500C978DE /* LCDialogCenterBlowUpPresentAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogCenterBlowUpPresentAnimation.swift; sourceTree = "<group>"; };
+		7CE4A3232495D17500C978DE /* LCDialogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogModel.swift; sourceTree = "<group>"; };
+		7CE4A3242495D17500C978DE /* LCDialogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogManager.swift; sourceTree = "<group>"; };
+		7CE4A3252495D17500C978DE /* LCDialogRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogRouter.swift; sourceTree = "<group>"; };
+		7CE4A3262495D17500C978DE /* LCDialogContainerComponentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogContainerComponentProtocol.swift; sourceTree = "<group>"; };
+		7CE4A3292495D17500C978DE /* SpeakBeginnerGuideViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakBeginnerGuideViewComponent.swift; sourceTree = "<group>"; };
+		7CE4A32A2495D17500C978DE /* SpeakBeginnerGuideContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakBeginnerGuideContainerComponent.swift; sourceTree = "<group>"; };
+		7CE4A32B2495D17500C978DE /* SpeakBeginnerGuideLifceCycleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakBeginnerGuideLifceCycleComponent.swift; sourceTree = "<group>"; };
+		7CE4A32C2495D17500C978DE /* SpeakBeginnerGuideRegualrComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakBeginnerGuideRegualrComponent.swift; sourceTree = "<group>"; };
+		7CE4A32E2495D17500C978DE /* StoreBottomViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBottomViewComponent.swift; sourceTree = "<group>"; };
+		7CE4A32F2495D17500C978DE /* StoreBottomDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBottomDialogView.swift; sourceTree = "<group>"; };
+		7CE4A3302495D17500C978DE /* StoreBottomContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBottomContainerComponent.swift; sourceTree = "<group>"; };
+		7CE4A3312495D17500C978DE /* StoreBottomRegualrComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBottomRegualrComponent.swift; sourceTree = "<group>"; };
+		7CE4A3322495D17500C978DE /* StoreBottomLifceCycleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreBottomLifceCycleComponent.swift; sourceTree = "<group>"; };
+		7CE4A3342495D17500C978DE /* DMPViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPViewComponent.swift; sourceTree = "<group>"; };
+		7CE4A3352495D17500C978DE /* DMPLifceCycleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPLifceCycleComponent.swift; sourceTree = "<group>"; };
+		7CE4A3362495D17500C978DE /* DMPContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPContainerComponent.swift; sourceTree = "<group>"; };
+		7CE4A3372495D17500C978DE /* DMPDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPDialogView.swift; sourceTree = "<group>"; };
+		7CE4A3382495D17500C978DE /* DMPRegualrComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMPRegualrComponent.swift; sourceTree = "<group>"; };
+		7CE4A33A2495D17500C978DE /* SpeakNewArrivalViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakNewArrivalViewComponent.swift; sourceTree = "<group>"; };
+		7CE4A33B2495D17500C978DE /* SpeakNewArrivalRegualrComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakNewArrivalRegualrComponent.swift; sourceTree = "<group>"; };
+		7CE4A33C2495D17500C978DE /* SpeakNewArrivalContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakNewArrivalContainerComponent.swift; sourceTree = "<group>"; };
+		7CE4A33D2495D17500C978DE /* SpeakNewArrivalLifceCycleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakNewArrivalLifceCycleComponent.swift; sourceTree = "<group>"; };
+		7CE4A33F2495D17500C978DE /* PtContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PtContainerComponent.swift; sourceTree = "<group>"; };
+		7CE4A3402495D17500C978DE /* PtLifceCycleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PtLifceCycleComponent.swift; sourceTree = "<group>"; };
+		7CE4A3412495D17500C978DE /* PtRegualrComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PtRegualrComponent.swift; sourceTree = "<group>"; };
+		7CE4A3422495D17500C978DE /* PtViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PtViewComponent.swift; sourceTree = "<group>"; };
+		7CE4A3432495D17500C978DE /* LCDialogComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogComponents.swift; sourceTree = "<group>"; };
+		7CE4A3442495D17500C978DE /* LCDialogRegularComponentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogRegularComponentProtocol.swift; sourceTree = "<group>"; };
+		7CE4A3452495D17500C978DE /* LCDialogStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogStore.swift; sourceTree = "<group>"; };
+		7CE4A3462495D17500C978DE /* LCDialogViewComponentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogViewComponentProtocol.swift; sourceTree = "<group>"; };
+		7CE4A3472495D17500C978DE /* LCDialogLifceCycleComponentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDialogLifceCycleComponentProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE4A2FE2495D13600C978DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CE4A2F82495D13600C978DE = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3182495D17500C978DE /* PopModule */,
+				7CE4A3032495D13600C978DE /* DialogDemo */,
+				7CE4A3022495D13600C978DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE4A3022495D13600C978DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3012495D13600C978DE /* DialogDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE4A3032495D13600C978DE /* DialogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3042495D13600C978DE /* AppDelegate.swift */,
+				7CE4A3062495D13600C978DE /* SceneDelegate.swift */,
+				7CE4A3082495D13600C978DE /* ViewController.swift */,
+				7CE4A30A2495D13600C978DE /* Main.storyboard */,
+				7CE4A30D2495D13B00C978DE /* Assets.xcassets */,
+				7CE4A30F2495D13B00C978DE /* LaunchScreen.storyboard */,
+				7CE4A3122495D13B00C978DE /* Info.plist */,
+			);
+			path = DialogDemo;
+			sourceTree = "<group>";
+		};
+		7CE4A3182495D17500C978DE /* PopModule */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3272495D17500C978DE /* LCDialogBusiness */,
+				7CE4A3192495D17500C978DE /* LCDialogContainer */,
+				7CE4A3232495D17500C978DE /* LCDialogModel.swift */,
+				7CE4A3242495D17500C978DE /* LCDialogManager.swift */,
+				7CE4A3252495D17500C978DE /* LCDialogRouter.swift */,
+				7CE4A3262495D17500C978DE /* LCDialogContainerComponentProtocol.swift */,
+				7CE4A3432495D17500C978DE /* LCDialogComponents.swift */,
+				7CE4A3442495D17500C978DE /* LCDialogRegularComponentProtocol.swift */,
+				7CE4A3452495D17500C978DE /* LCDialogStore.swift */,
+				7CE4A3462495D17500C978DE /* LCDialogViewComponentProtocol.swift */,
+				7CE4A3472495D17500C978DE /* LCDialogLifceCycleComponentProtocol.swift */,
+			);
+			path = PopModule;
+			sourceTree = "<group>";
+		};
+		7CE4A3192495D17500C978DE /* LCDialogContainer */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A31A2495D17500C978DE /* LCDialogViewController.swift */,
+				7CE4A31B2495D17500C978DE /* LCDialogBottomRiseTransitionAnimation */,
+				7CE4A31F2495D17500C978DE /* LCDialogCenterBlowUpTransitionAnimation */,
+			);
+			path = LCDialogContainer;
+			sourceTree = "<group>";
+		};
+		7CE4A31B2495D17500C978DE /* LCDialogBottomRiseTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A31C2495D17500C978DE /* LCDialogBottomRisePresentAnimation.swift */,
+				7CE4A31D2495D17500C978DE /* LCDialogBottomRiseDismissAnimation.swift */,
+				7CE4A31E2495D17500C978DE /* LCDialogBottomRisePresentationController.swift */,
+			);
+			path = LCDialogBottomRiseTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		7CE4A31F2495D17500C978DE /* LCDialogCenterBlowUpTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3202495D17500C978DE /* LCDialogCenterBlowUpDismissAnimation.swift */,
+				7CE4A3212495D17500C978DE /* LCDialogCenterBlowUpPresentationController.swift */,
+				7CE4A3222495D17500C978DE /* LCDialogCenterBlowUpPresentAnimation.swift */,
+			);
+			path = LCDialogCenterBlowUpTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		7CE4A3272495D17500C978DE /* LCDialogBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3282495D17500C978DE /* SpeakBeginnerGuideDialog */,
+				7CE4A32D2495D17500C978DE /* StoreBottomDialog */,
+				7CE4A3332495D17500C978DE /* DMPDialog */,
+				7CE4A3392495D17500C978DE /* SpeakNewArrivalDialog */,
+				7CE4A33E2495D17500C978DE /* PTDialog */,
+			);
+			path = LCDialogBusiness;
+			sourceTree = "<group>";
+		};
+		7CE4A3282495D17500C978DE /* SpeakBeginnerGuideDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3292495D17500C978DE /* SpeakBeginnerGuideViewComponent.swift */,
+				7CE4A32A2495D17500C978DE /* SpeakBeginnerGuideContainerComponent.swift */,
+				7CE4A32B2495D17500C978DE /* SpeakBeginnerGuideLifceCycleComponent.swift */,
+				7CE4A32C2495D17500C978DE /* SpeakBeginnerGuideRegualrComponent.swift */,
+			);
+			path = SpeakBeginnerGuideDialog;
+			sourceTree = "<group>";
+		};
+		7CE4A32D2495D17500C978DE /* StoreBottomDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A32E2495D17500C978DE /* StoreBottomViewComponent.swift */,
+				7CE4A32F2495D17500C978DE /* StoreBottomDialogView.swift */,
+				7CE4A3302495D17500C978DE /* StoreBottomContainerComponent.swift */,
+				7CE4A3312495D17500C978DE /* StoreBottomRegualrComponent.swift */,
+				7CE4A3322495D17500C978DE /* StoreBottomLifceCycleComponent.swift */,
+			);
+			path = StoreBottomDialog;
+			sourceTree = "<group>";
+		};
+		7CE4A3332495D17500C978DE /* DMPDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A3342495D17500C978DE /* DMPViewComponent.swift */,
+				7CE4A3352495D17500C978DE /* DMPLifceCycleComponent.swift */,
+				7CE4A3362495D17500C978DE /* DMPContainerComponent.swift */,
+				7CE4A3372495D17500C978DE /* DMPDialogView.swift */,
+				7CE4A3382495D17500C978DE /* DMPRegualrComponent.swift */,
+			);
+			path = DMPDialog;
+			sourceTree = "<group>";
+		};
+		7CE4A3392495D17500C978DE /* SpeakNewArrivalDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A33A2495D17500C978DE /* SpeakNewArrivalViewComponent.swift */,
+				7CE4A33B2495D17500C978DE /* SpeakNewArrivalRegualrComponent.swift */,
+				7CE4A33C2495D17500C978DE /* SpeakNewArrivalContainerComponent.swift */,
+				7CE4A33D2495D17500C978DE /* SpeakNewArrivalLifceCycleComponent.swift */,
+			);
+			path = SpeakNewArrivalDialog;
+			sourceTree = "<group>";
+		};
+		7CE4A33E2495D17500C978DE /* PTDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7CE4A33F2495D17500C978DE /* PtContainerComponent.swift */,
+				7CE4A3402495D17500C978DE /* PtLifceCycleComponent.swift */,
+				7CE4A3412495D17500C978DE /* PtRegualrComponent.swift */,
+				7CE4A3422495D17500C978DE /* PtViewComponent.swift */,
+			);
+			path = PTDialog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE4A3002495D13600C978DE /* DialogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE4A3152495D13B00C978DE /* Build configuration list for PBXNativeTarget "DialogDemo" */;
+			buildPhases = (
+				7CE4A2FD2495D13600C978DE /* Sources */,
+				7CE4A2FE2495D13600C978DE /* Frameworks */,
+				7CE4A2FF2495D13600C978DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialogDemo;
+			productName = DialogDemo;
+			productReference = 7CE4A3012495D13600C978DE /* DialogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE4A2F92495D13600C978DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = CircleCircle;
+				TargetAttributes = {
+					7CE4A3002495D13600C978DE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CE4A2FC2495D13600C978DE /* Build configuration list for PBXProject "DialogDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE4A2F82495D13600C978DE;
+			productRefGroup = 7CE4A3022495D13600C978DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE4A3002495D13600C978DE /* DialogDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE4A2FF2495D13600C978DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE4A3112495D13B00C978DE /* LaunchScreen.storyboard in Resources */,
+				7CE4A30E2495D13B00C978DE /* Assets.xcassets in Resources */,
+				7CE4A30C2495D13600C978DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE4A2FD2495D13600C978DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE4A3532495D17500C978DE /* SpeakBeginnerGuideViewComponent.swift in Sources */,
+				7CE4A36B2495D17500C978DE /* LCDialogStore.swift in Sources */,
+				7CE4A35E2495D17500C978DE /* DMPContainerComponent.swift in Sources */,
+				7CE4A3602495D17500C978DE /* DMPRegualrComponent.swift in Sources */,
+				7CE4A3092495D13600C978DE /* ViewController.swift in Sources */,
+				7CE4A3612495D17500C978DE /* SpeakNewArrivalViewComponent.swift in Sources */,
+				7CE4A3512495D17500C978DE /* LCDialogRouter.swift in Sources */,
+				7CE4A3672495D17500C978DE /* PtRegualrComponent.swift in Sources */,
+				7CE4A3482495D17500C978DE /* LCDialogViewController.swift in Sources */,
+				7CE4A34C2495D17500C978DE /* LCDialogCenterBlowUpDismissAnimation.swift in Sources */,
+				7CE4A35F2495D17500C978DE /* DMPDialogView.swift in Sources */,
+				7CE4A3682495D17500C978DE /* PtViewComponent.swift in Sources */,
+				7CE4A3492495D17500C978DE /* LCDialogBottomRisePresentAnimation.swift in Sources */,
+				7CE4A34F2495D17500C978DE /* LCDialogModel.swift in Sources */,
+				7CE4A3552495D17500C978DE /* SpeakBeginnerGuideLifceCycleComponent.swift in Sources */,
+				7CE4A3662495D17500C978DE /* PtLifceCycleComponent.swift in Sources */,
+				7CE4A35C2495D17500C978DE /* DMPViewComponent.swift in Sources */,
+				7CE4A3572495D17500C978DE /* StoreBottomViewComponent.swift in Sources */,
+				7CE4A3592495D17500C978DE /* StoreBottomContainerComponent.swift in Sources */,
+				7CE4A3632495D17500C978DE /* SpeakNewArrivalContainerComponent.swift in Sources */,
+				7CE4A3542495D17500C978DE /* SpeakBeginnerGuideContainerComponent.swift in Sources */,
+				7CE4A3692495D17500C978DE /* LCDialogComponents.swift in Sources */,
+				7CE4A3052495D13600C978DE /* AppDelegate.swift in Sources */,
+				7CE4A3502495D17500C978DE /* LCDialogManager.swift in Sources */,
+				7CE4A3522495D17500C978DE /* LCDialogContainerComponentProtocol.swift in Sources */,
+				7CE4A34E2495D17500C978DE /* LCDialogCenterBlowUpPresentAnimation.swift in Sources */,
+				7CE4A35B2495D17500C978DE /* StoreBottomLifceCycleComponent.swift in Sources */,
+				7CE4A3652495D17500C978DE /* PtContainerComponent.swift in Sources */,
+				7CE4A34A2495D17500C978DE /* LCDialogBottomRiseDismissAnimation.swift in Sources */,
+				7CE4A3072495D13600C978DE /* SceneDelegate.swift in Sources */,
+				7CE4A3642495D17500C978DE /* SpeakNewArrivalLifceCycleComponent.swift in Sources */,
+				7CE4A35A2495D17500C978DE /* StoreBottomRegualrComponent.swift in Sources */,
+				7CE4A36A2495D17500C978DE /* LCDialogRegularComponentProtocol.swift in Sources */,
+				7CE4A3622495D17500C978DE /* SpeakNewArrivalRegualrComponent.swift in Sources */,
+				7CE4A35D2495D17500C978DE /* DMPLifceCycleComponent.swift in Sources */,
+				7CE4A34B2495D17500C978DE /* LCDialogBottomRisePresentationController.swift in Sources */,
+				7CE4A3562495D17500C978DE /* SpeakBeginnerGuideRegualrComponent.swift in Sources */,
+				7CE4A36C2495D17500C978DE /* LCDialogViewComponentProtocol.swift in Sources */,
+				7CE4A36D2495D17500C978DE /* LCDialogLifceCycleComponentProtocol.swift in Sources */,
+				7CE4A34D2495D17500C978DE /* LCDialogCenterBlowUpPresentationController.swift in Sources */,
+				7CE4A3582495D17500C978DE /* StoreBottomDialogView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CE4A30A2495D13600C978DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE4A30B2495D13600C978DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE4A30F2495D13B00C978DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE4A3102495D13B00C978DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE4A3132495D13B00C978DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CE4A3142495D13B00C978DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE4A3162495D13B00C978DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DialogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccsdfteer.DialogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE4A3172495D13B00C978DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DialogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccsdfteer.DialogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE4A2FC2495D13600C978DE /* Build configuration list for PBXProject "DialogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE4A3132495D13B00C978DE /* Debug */,
+				7CE4A3142495D13B00C978DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE4A3152495D13B00C978DE /* Build configuration list for PBXNativeTarget "DialogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE4A3162495D13B00C978DE /* Debug */,
+				7CE4A3172495D13B00C978DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CE4A2F92495D13600C978DE /* Project object */;
+}
